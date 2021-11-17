@@ -1,0 +1,139 @@
+.header{
+    display: none;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(56, 68, 80);
+    height: 200px;
+    margin: 0 30px;
+    border: 2px solid black;
+}
+.header__h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+}
+.footer__contacts{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.footer__contacts a:hover{
+    color: white;
+}
+.main__header{
+    display: flex;
+    height: 250px;
+    margin: 20px 90px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.main__img{
+    width: 220px;
+    height: 220px;
+    background-image: url(img/img.jpg);
+    border-radius: 50%;
+    border: 2px solid black;
+    background-size: auto 220px;
+    background-repeat: no-repeat;
+}
+.main__p{
+    justify-content: stretch;
+    align-items: stretch;
+    width: 700px;
+    font-family: 'Open Sense', sans-serif;
+    font-size: 18px;
+}
+.main__article{
+    margin: 0 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.article__left{
+    width: 750px;
+    border-right: 2px solid black;
+    height: 600px;
+}
+.article__h2{
+    width: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.article__expierence{
+    width: 600px;
+}
+.article__header{
+    display: flex;
+    justify-content: space-between;
+}
+.article__h3{
+    font-family: 'Open Sense', sans-serif;
+    font-size: 18px;
+}
+.article__p{
+    font-family: 'Open Sense', sans-serif;
+    font-size: 18px;
+}
+.article__right{
+    width: 350px;
+    height: 600px;
+}
+.footer{
+    background-color: rgb(163, 190, 218);
+    border: 2px solid black;
+    margin: 10px 30px;
+    /* transform: translate(0px, 120%); */
+    opacity: 1;
+    transition: all 0.8s ease 0s;
+}
+.contacts__mail{
+    display: flex;
+    align-items: center;
+}
+.contacts__phone{
+    display: flex;
+    align-items: center;
+}
+.contacts__github{
+    display: flex;
+    align-items: center;
+}
+.contacts__instagram{
+    display: flex;
+    align-items: center;
+}
+.highlights__list{
+    display: none;
+}
+.education__list{
+    display: none;
+}
+.hobbies__list{
+    display: none;
+}
+.expierence__list{
+    display: none;
+}
+.skills__list{
+    display: none;
+}
+.article__h2:hover{
+    text-decoration: underline solid black;
+    cursor: pointer;
+}
+.article__list{
+    font-family: 'Open Sense', sans-serif;
+    font-size: 16px;
+}
