@@ -42,7 +42,7 @@
 .main__img{
     width: 220px;
     height: 220px;
-    background-image: url(img/img.jpg);
+    background-image: url('../img/img.jpg');
     border-radius: 50%;
     border: 2px solid black;
     background-size: auto 220px;
